@@ -1,0 +1,155 @@
+
+
+/* Font: Santio bold, Roboto, Tangerine
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: Santio;
+    src: url("../fonts/Santio\ Bold.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Santio;
+}
+
+.fontColorGreen {
+    color: #6bc1a3;
+}
+
+.fontColorGold {
+    color: #e7bc0e;
+}
+
+.fontColorRose {
+    color: #cb91b6;
+}
+
+.fontColorBlue {
+    color: #7eb8e1;
+}
+
+.fontColorWhite {
+    color: #efefef;
+}
+
+.fontColorWhiteAndBGColor {
+    color: #efefef;
+    background-color: #000;
+}
+
+
+#linkPage2 {
+    padding: 5vh 0vw 95vh 5vw;
+}
+
+.image1 {
+    display: block ;
+    width: 15%;
+    margin-bottom: 5vh;
+}
+
+.backGroundImage1 {
+    background-image: url("../img/cleo-topper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backGroundImage2 {
+    background-image: url("../img/see.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blockText1 {
+    width: 66%;
+    line-height: 2;
+    font-size: 2.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 180vh
+}
+
+.blockText2 {
+    width: 54%;
+    line-height: 2;
+    font-size: 2.8rem;
+    margin-left: 38vw;
+    padding-bottom: 20vh
+}
+
+.fontBigest {
+    font-size: 14rem;
+}
+
+.articleBig {
+    margin-left: 18vw;
+    padding-bottom: 35vh;
+    font-size: 4rem;
+}
+
+header {
+    text-align: right;
+}
+
+.links-All {
+    text-decoration: none;
+    font-family: Roboto ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#headLineSite {
+    width: 25%;
+    text-align: left;
+    font-family: Santio;
+    font-size: 5rem;
+    margin: 34vh 0vw 0vh 5vw;
+    padding: 0vh 0vw 6vh 0vw;
+}
+
+#scrollMore {
+    font-family: Tangerine;
+    font-size: 3rem;
+}
+
+#imageKid {
+    width: 100%;
+}
+
+.fbackground {
+    color: white;
+    background-color: #000;
+}
+
+.fbigText {
+    font-size: 8rem;
+    padding: 20vh 16vw;
+}
+
+.linkBtn {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: white;
+    border: 1px solid white;
+    padding: 2vh 3vw;
+    margin-left: 16vw;
+    margin-bottom: 35vh;
+}
+
+#linkfooter {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-bottom: 5vh;
+}
