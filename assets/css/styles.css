@@ -11,6 +11,11 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
     src: url("../fonts/Santio\ Bold.ttf") format("truetype");
 }
 
+
+/* #############################
+   Global settings
+################################ */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,94 +27,59 @@ body {
     font-family: Santio;
 }
 
-.fontColorGreen {
+/* all links have this font */
+.linksFont {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Colors */
+.fCGreen {
     color: #6bc1a3;
 }
-
-.fontColorGold {
+.fCGold {
     color: #e7bc0e;
 }
-
-.fontColorRose {
+.fCRose {
     color: #cb91b6;
 }
-
-.fontColorBlue {
+.fCBlue {
     color: #7eb8e1;
 }
-
-.fontColorWhite {
+.fCWhite {
     color: #efefef;
 }
-
-.fontColorWhiteAndBGColor {
+.fCWhiteAndBGColor {
     color: #efefef;
     background-color: #000;
 }
 
-
-#linkPage2 {
-    padding: 5vh 0vw 95vh 5vw;
-}
-
-.image1 {
-    display: block ;
-    width: 15%;
-    margin-bottom: 5vh;
-}
-
-.backGroundImage1 {
-    background-image: url("../img/cleo-topper.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.backGroundImage2 {
-    background-image: url("../img/see.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.blockText1 {
-    width: 66%;
-    line-height: 2;
-    font-size: 2.8rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 180vh
-}
-
-.blockText2 {
-    width: 54%;
-    line-height: 2;
-    font-size: 2.8rem;
-    margin-left: 38vw;
-    padding-bottom: 20vh
-}
-
-.fontBigest {
-    font-size: 14rem;
-}
-
-.articleBig {
-    margin-left: 18vw;
-    padding-bottom: 35vh;
-    font-size: 4rem;
-}
+/* #############################
+   Content settings
+################################ */
+/* header */
 
 header {
     text-align: right;
 }
 
-.links-All {
-    text-decoration: none;
-    font-family: Roboto ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* Special link in header */
+header a {
+    display: inline-block;
+    margin: 3vh 8vw 0vh 2vw;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #efefef;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+	text-decoration-color: #e7bc0e;
 }
 
+/* the heart image is very small */
+header img {
+    width: 2%;
+}
+
+/* headline in header */
 #headLineSite {
     width: 25%;
     text-align: left;
@@ -119,25 +89,93 @@ header {
     padding: 0vh 0vw 6vh 0vw;
 }
 
+/* for Page2 - the distances and the link Format */
+/* html: section scroll more */
+#linkPage2 {
+    padding: 5vh 0vw 95vh 5vw;
+}
 #scrollMore {
     font-family: Tangerine;
     font-size: 3rem;
+    text-decoration: none;
 }
 
-#imageKid {
-    width: 100%;
+/* The 3 ICON´s */
+/* html: section with 3 articles with ICON */
+.imageICON {
+    display: block ;
+    width: 15%;
+    margin-bottom: 5vh;
 }
 
+/* Background images */
+.bGImg1 {
+    background-image: url("../img/cleo-topper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* html: section with image and backgr. image */
+.bGImg2 {
+    background-image: url("../img/see.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+/* Text in in div */
+/* html: section with block text */
+.blockText1 {
+    width: 66%;
+    line-height: 2;
+    font-size: 2.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 180vh
+}
+
+/* html: section with div block text */
+.blockText2 {
+    width: 54%;
+    line-height: 2;
+    font-size: 2.8rem;
+    margin-left: 38vw;
+    padding-bottom: 20vh
+}
+
+/* The biggest Fontsize */
+.fontBigest {
+    font-size: 14rem;
+}
+
+/* Distances and fontsize for articles */
+.articleBig {
+    margin-left: 18vw;
+    padding-bottom: 35vh;
+    font-size: 4rem;
+}
+
+/* Text with background color */
 .fbackground {
     color: white;
     background-color: #000;
 }
 
+/* html: section with image and backgr. image */
+#imageKid {
+    width: 100%;
+}
+
+/* bigText in Footer */
 .fbigText {
     font-size: 8rem;
     padding: 20vh 16vw;
 }
 
+/* button in footer */
 .linkBtn {
     display: inline-block;
     font-size: 2.5rem;
@@ -147,9 +185,20 @@ header {
     margin-left: 16vw;
     margin-bottom: 35vh;
 }
+/* Button hover effect */
+footer div + a:hover{
+    box-shadow: 8px 8px #fff;;
+}
 
+/* #link at the bottom */
 #linkfooter {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     padding-bottom: 5vh;
 }
+footer a {
+    text-decoration: none;
+}
+
+
+
+
